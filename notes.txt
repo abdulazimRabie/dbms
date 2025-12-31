@@ -1,0 +1,3 @@
+Key rule (memorize this)
+❗ Never use `exit` inside a sourced script
+❗ Never source a script that is meant to be a validator
