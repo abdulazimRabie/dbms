@@ -23,7 +23,7 @@ while true; do
             ;;
         2)
             echo "[INFO]: Let's create database"
-            source ./create_db.sh $DB_HOME
+            source ./create_db.sh "$DB_HOME"
             break;
             ;;
         3)

@@ -7,5 +7,5 @@ if [[ -d "$db_path/$db_name" ]]; then
     exit 0
 fi
 
-echo "[INFO]: No atabase with name $db_name"
+echo "[INFO]: No Database With Name $db_name"
 exit 1
