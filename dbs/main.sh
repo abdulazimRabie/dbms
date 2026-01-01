@@ -33,6 +33,7 @@ while true; do
             ;;
         4)
             echo "[INFO]: Let's list database"
+            . ./list_db.sh "$DB_HOME"
             break;
             ;;
         5)
