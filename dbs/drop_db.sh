@@ -13,3 +13,5 @@ while true; do
         break
     fi
 done
+
+./main.sh
