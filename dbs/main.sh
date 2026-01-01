@@ -19,6 +19,7 @@ while true; do
     case $choice in
         1)
             echo "[INFO]: Let's connect database"
+            source ./connect_db.sh "$DB_HOME"
             break;
             ;;
         2)

@@ -1,0 +1,1 @@
+echo "============MANIPULATING WITH TABLES=============="
