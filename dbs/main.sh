@@ -28,6 +28,7 @@ while true; do
             ;;
         3)
             echo "[INFO]: Let's drop database"
+            . ./drop_db.sh "$DB_HOME"
             break;
             ;;
         4)
