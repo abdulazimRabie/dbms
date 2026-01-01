@@ -11,6 +11,7 @@ if [[ -z "$db_name" ]]; then
 fi
 
 # no spaces
+echo "$db_name"
 if [[ "$db_name" =~ [[:space:]] ]]; then
     echo "[ERROR]: Database Name cannot contain space!"
     echo "[SOURCE]: $0 <database_name>"
