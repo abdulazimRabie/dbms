@@ -3,7 +3,7 @@
 	- [x] create database
 	- [x] drop database
 	- [x] list database
-	- [ ] connect database
+	- [X] connect database
 
 - [ ] Implement function of tables
 	- [ ] create table
