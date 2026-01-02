@@ -1,6 +1,7 @@
 # Tasks 
-- [ ] Implement functions of database
+- [x] Implement functions of database
 	- [x] create database
+		- [x] create log file
 	- [x] drop database
 	- [x] list database
 	- [X] connect database

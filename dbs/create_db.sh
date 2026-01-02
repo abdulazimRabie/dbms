@@ -12,5 +12,6 @@ done
 # Create folder in DB_HOME/name
 echo "[INFO]: This is a valid name, and no database with this name"
 mkdir -p "$db_path/${db_name,,}"
+echo "[$(date)][$(printenv USER)]: Dateabase ${db_name} Created Successfully" > "${db_path}/${db_name}/.${db_name}.log"
 
 ./main.sh
