@@ -7,6 +7,7 @@ while true; do
     if ../utils/valid_db_name.sh "$db_name" && ../utils/is_exist_db.sh "$db_path" "$db_name"; then
         echo "[INFO]: Connecting Database $db_name"
         ../tables/main.sh "$db_path" "$db_name"
+        break
     fi
 done
 # validate, that it is a valid database

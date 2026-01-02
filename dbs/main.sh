@@ -5,13 +5,17 @@ DB_HOME="$HOME/DATABASES"
 mkdir -p "$DB_HOME"
 
 # show database menu
-echo "WELCOME TO DBMS"
-echo "==============="
-echo "1. Connect To Database"
-echo "2. Create Database"
-echo "3. Drop Database"
-echo "4. List Databases"
-echo "5. Exit"
+echo " ____________________________________"
+echo "|                                    |"
+echo "|        WELCOME TO DBMS             |"
+echo "|____________________________________|"
+echo "| 1. Connect To Database             |"
+echo "| 2. Create Database                 |"
+echo "| 3. Drop Database                   |"
+echo "| 4. List Databases                  |"
+echo "| 5. Exit                            |"
+echo "|____________________________________|"
+
 
 
 while true; do
