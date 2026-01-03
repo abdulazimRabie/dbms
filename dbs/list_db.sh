@@ -6,7 +6,7 @@ database=$(ls $db_path)
 if [[ -z "$database" ]]; then
     echo "[LOG]: No Databases"
     else
-        for db in "$db_path"/* 
+        for db in "$db_path"/*
         do
             name="${db##*/}"
             echo "[-] ${name}"

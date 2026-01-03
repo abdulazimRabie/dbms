@@ -1,0 +1,22 @@
+# EditorConfig for shell script project
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Shell scripts
+[*.sh]
+end_of_line = lf
+indent_style = tab
+tab_width = 4
+indent_size = 4
+
+# Text files (do NOT touch line endings or whitespace)
+[*.txt]
+end_of_line = unset
+insert_final_newline = false
+trim_trailing_whitespace = false
+indent_style = unset
+indent_size = unset

@@ -8,7 +8,7 @@ echo "|____________________________________________|"
 echo "| 1. Create Table                            |"
 echo "| 2. Drop Table                              |"
 echo "| 3. List Tables                             |"
-echo "| 4. Insert Row                              |" 
+echo "| 4. Insert Row                              |"
 echo "| 5. Select From Table                       |" # whole data OR specific record
 echo "| 6. Alter Table (Rename)                    |"
 echo "| 7. Add Column                              |"

@@ -1,4 +1,4 @@
-# Tasks 
+# Tasks
 - [x] Implement functions of database
 	- [x] create database
 		- [x] create log file

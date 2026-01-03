@@ -11,5 +11,5 @@ while true; do
     fi
 done
 # validate, that it is a valid database
-# validate it is exist 
+# validate it is exist
 # move to main.sh of tables
